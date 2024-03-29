@@ -1,0 +1,25 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for fivem",
+  "main": "index.js",
+  "engines": {
+    "node": "12.18.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Jesús Giménez",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "canvas": "^2.6.1",
+    "cron": "^1.8.2",
+    "discord-slash-commands-client": "^1.1.1",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "mysql": "^2.18.1",
+    "tcp-port-check": "^1.0.3"
+  }
+}
